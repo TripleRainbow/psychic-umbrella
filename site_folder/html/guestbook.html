@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="author" content="Jeremy Harding">
+<meta name="keywords" content="HTML, CSS, Student Project, Web Development, Portfolio, Resume, guestbook">
+<meta name="description" content="Guestbook page of a portfolio web site for a web development student">
+<meta name="robots" content="noindex">
+<style>
+h1 {
+	font-family: "courier new", arial, sans-serif;
+	font-weight: bold;
+	font-size: 200%;
+}
+h2 {
+	font-family: "courier new", arial, sans-serif;
+	font-weight: bold;
+	font-size: 180%;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="../css/myStyle.css"/>
+	<title>Guestbook Page - Jeremy Harding</title>
+</head>
+<body>
+<div id="flecks">
+	<div id="masthead">
+		<img id="myname" src="../images/namename.png" alt="Jeremy Harding" class="center">
+		<img id="navmenu" usemap="#menumap" src="../images/wholemenu.png" alt="navigation menu" class="center">
+		<map name="menumap">
+			<area shape="rect" coords="0,0,125,50" href="home.html" alt="home">
+			<area shape="rect" coords="125,0,320,50" href="interest.html" alt="interests">
+			<area shape="rect" coords="320,0,543,50" href="guestbook.html" alt="guestbook">
+			<area shape="rect" coords="543,0,706,50" href="resume.html" alt="resume">
+			<area shape="rect" coords="706,0,950,50" href="reflections.html" alt="reflections">
+		</map>
+	</div>
+	
+	<div id="middleman">
+		<div class="col1">
+		<img height="400" width="400" src="../images/harding.png" alt="abstract digital art on a pink background" class="floatleft">
+		</div>
+		<div class="col2">
+		<h1 style="text-align: center;">Guestbook</h1>
+		<form method="get" action="mailto:peskypoop@gmail.com" enctype="text/plain" class="formum">
+			Your Name: <input type="text" name="name" size="20"/>
+			<br/>
+			<br/>
+			Your E-mail: <input type="text" name="Email" size="20"/>
+			<br/>
+			<br/>
+			Your Website: <input type="text" name="website" size="30" value="http://"/>
+			<br/>
+			<br/>
+			What country do you live in? <input type="text" name="Country" size="20"/>
+			<br/>
+			<br/>		
+			How did you find my website?
+			<br/>
+			<select name="website">
+				<option>Select one</option>
+				<option>I'm a friend</option>
+				<option>A friend directed me to your site</option>
+				<option>School Web Site</option>
+				<option>A Search engine directed me to your site</option>
+				<option>I came across your site by accident</option>
+				<option>Other</option>
+			</select>
+			<br/>
+			<br/>
+			Comments:<br/>
+			<textarea name="comments" cols="25" rows="6">Enter your message here</textarea>
+			<br/>
+			<br/>
+			<input type="submit" name="submit" value="send"/>
+			<input type="reset" name="reset" value="clear form"/>
+		</form>
+		</div>
+	</div>
+	
+	<div id="barrelbottom">
+		<a href="../html/home.html">Home</a>
+		-
+		<a href="../html/interest.html">Interests</a>
+		-
+		<span style="font-weight: bold;">Guestbook</span>
+		-
+		<a href="../html/resume.html">Resume</a>
+		-
+		<a href="../html/reflections.html">Reflections</a>
+		<p class="contacting">
+		Web Design by Jeremy Harding
+		<br>
+		Contact: 
+		<a href="mailto:peskypoop@gmail.com">peskypoop@gmail.com</a>
+		</p>
+	</div>
+</div>	
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+margin: 0px;
+background-color: #CCCCCC;
+}
+
+p {
+	font-family: "courier new", arial, sans-serif;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+ul {
+	font-family: "courier new", arial, sans-serif;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+ul.resume {
+	font-weight: normal;
+}
+
+img.floatleft {
+	float: left;
+	margin: 10px;
+	vertical-align: top;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#flecks {
+	display: flex;
+	flex-direction: column;
+	background: palegoldenrod;
+}
+
+#masthead {
+	background-image: url('../images/blu.png');
+	display: block;
+	height: 120px;
+	padding-top: 15px;
+}
+
+#myname {
+	height: auto;
+}
+
+#middleman {
+	display: flex;
+	flex-direction: row;
+	column-count: 3;
+	column-gap: 10px;
+	background-image: url('../images/pank.png');
+}
+
+div.col1 {
+	display: flex;
+	flex-direction: column;
+}
+
+div.col2 {
+	font-family: "courier new", arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding-right: 10px;
+}
+
+#barrelbottom {
+	background: tan;
+	height: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: "courier new", arial, sans-serif;
+	font-size: 24px;
+}
+
+p.contacting {
+	font-size: 15px;
+}
+
+form.formum {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-family: "courier new", arial, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+}
+
+table {
+	font-family: "courier new", arial, sans-serif;
+	font-size: 130%;
+	border-spacing: 10px;
+}
